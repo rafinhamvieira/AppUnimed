@@ -13,14 +13,14 @@ import 'package:unimed/app/others/admin.dart';
 import 'package:unimed/app/others/docs.dart';
 import 'package:unimed/app/others/logs.dart';
 import 'package:unimed/app/routes/app_routes.dart';
-import 'package:unimed/app/sectors/biliing/configuration/configuration.dart';
-import 'package:unimed/app/sectors/biliing/configuration/provider_payment_rules.dart';
-import 'package:unimed/app/sectors/biliing/home_biling.dart';
-import 'package:unimed/app/sectors/biliing/productivity_dashboard.dart';
-import 'package:unimed/app/sectors/biliing/provider/payment_statement.dart';
-import 'package:unimed/app/sectors/biliing/provider/provider.dart';
-import 'package:unimed/app/sectors/biliing/reports/hospital_admission_guide.dart';
-import 'package:unimed/app/sectors/biliing/reports/reports.dart';
+import 'package:unimed/app/sectors/billing/configuration/configuration.dart';
+import 'package:unimed/app/sectors/billing/configuration/provider_payment_rules.dart';
+import 'package:unimed/app/sectors/billing/home_biling.dart';
+import 'package:unimed/app/sectors/billing/productivity_dashboard.dart';
+import 'package:unimed/app/sectors/billing/provider/payment_statement.dart';
+import 'package:unimed/app/sectors/billing/provider/provider.dart';
+import 'package:unimed/app/sectors/billing/reports/hospital_admission_guide.dart';
+import 'package:unimed/app/sectors/billing/reports/reports.dart';
 import 'package:unimed/app/sectors/cadastre/home_cadastre.dart';
 import 'package:unimed/app/sectors/cadastre/wallets.dart';
 import 'package:unimed/app/sectors/customer_relationship/customer_relationship.dart';
@@ -30,7 +30,7 @@ import 'package:unimed/app/sectors/financial/crediplan/debitAuthorization_DOC_TE
 import 'package:unimed/app/sectors/financial/financial_page.dart';
 import 'package:unimed/app/sectors/financial/payment_scheduling.dart';
 import 'package:unimed/app/sectors/human_resources/human_resources.dart';
-import 'package:unimed/app/sectors/information_tecnology/information_tecnology.dart';
+import 'package:unimed/app/sectors/information_technology/information_technology.dart';
 
 class AppPages{
   static final routes = [
