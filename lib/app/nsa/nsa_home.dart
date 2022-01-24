@@ -12,6 +12,7 @@ class NsaHome extends StatelessWidget {
       body: Container(
         color: Colors.green[50],
         child: ListView(children: [
+          Padding(padding: EdgeInsets.only(top: 9)),
           Card(
             child: ListTile(
               title: Text("Solicitação entre setores"),
